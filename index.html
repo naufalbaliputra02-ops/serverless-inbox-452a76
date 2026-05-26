@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CloudMail - Email Service on Cloudflare Edge</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,sans-serif;background:linear-gradient(135deg,#0a0a1a 0%,#1a1a3e 50%,#0d0d2b 100%);color:#fff;min-height:100vh}
+.container{max-width:800px;margin:0 auto;padding:60px 20px}
+.logo{font-size:48px;margin-bottom:10px}
+h1{font-size:36px;margin-bottom:20px;background:linear-gradient(90deg,#60a5fa,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.desc{font-size:18px;color:#94a3b8;margin-bottom:40px;line-height:1.6}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-bottom:40px}
+.card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:20px}
+.card h3{font-size:18px;margin-bottom:8px}
+.card p{color:#94a3b8;font-size:14px}
+.stats{display:flex;gap:40px;margin:40px 0}
+.stat{text-align:center}
+.stat .num{font-size:36px;font-weight:bold;background:linear-gradient(90deg,#60a5fa,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.stat .label{font-size:14px;color:#94a3b8;margin-top:4px}
+.footer{text-align:center;color:#64748b;font-size:14px;margin-top:60px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1)}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="logo">☁️</div>
+<h1>CloudMail</h1>
+<p class="desc">Scalable multi-domain email service running entirely on Cloudflare Workers. Zero server costs, global edge performance, built with MiMo AI.</p>
+<div class="stats">
+<div class="stat"><div class="num">1ms</div><div class="label">Edge Latency</div></div>
+<div class="stat"><div class="num">∞</div><div class="label">Domains</div></div>
+<div class="stat"><div class="num">$0</div><div class="label">Monthly Cost</div></div>
+</div>
+<div class="features">
+<div class="card"><h3>📧 Multi-domain</h3><p>Unlimited email domains managed from one dashboard</p></div>
+<div class="card"><h3>📦 R2 Storage</h3><p>Attachment handling with Cloudflare R2</p></div>
+<div class="card"><h3>🔔 TG Bot</h3><p>Instant notifications via Telegram</p></div>
+<div class="card"><h3>🛡️ RBAC</h3><p>Role-based access control for teams</p></div>
+<div class="card"><h3>📡 REST API</h3><p>Full API for third-party integration</p></div>
+<div class="card"><h3>🌍 Edge</h3><p>300+ data centers worldwide</p></div>
+</div>
+</div>
+<div class="footer">Built with ❤️ using Cloudflare Workers + MiMo AI · <a href="https://github.com/naufalbaliputra02-ops/cloudmail-mimo-77f868dd" style="color:#60a5fa">GitHub</a></div>
+</body>
+</html>
